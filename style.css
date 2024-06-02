@@ -3,7 +3,9 @@ body {
     padding: 2rem;
     overflow-x: hidden;
 }
-
+img{
+    aspect-ratio: auto ;
+}
 .Header {
     display: flex;
     justify-content: space-between;
@@ -84,8 +86,6 @@ body {
     align-items: center;
     width: 90%;
     margin-top: 5rem;
-
-
 }
 .Galeria-1,
 .Galeria-2,
