@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     padding: 2rem;
+    overflow-x: hidden;
 }
 
 .Header {
@@ -11,8 +12,8 @@ body {
 }
 
 .Header img {
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 20px;
 }
 
 .Lista {
@@ -23,8 +24,9 @@ body {
 .Lista-li {
     margin-left: 1rem;
 }
-.Lista-li--h{
-border-bottom: solid 1px black;
+
+.Lista-li--h {
+    border-bottom: solid 1px black;
 }
 
 .Container {
@@ -40,11 +42,13 @@ border-bottom: solid 1px black;
     width: 30%;
     margin-right: 5rem;
 }
-.Container-texto--h1{
+
+.Container-texto--h1 {
     font-size: xx-large;
     width: 100%;
 }
-.Container-texto--p{
+
+.Container-texto--p {
     border-radius: 5px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
@@ -55,53 +59,99 @@ border-bottom: solid 1px black;
     width: 100%;
 }
 
-.Container-texto2 {
-    width: 50%;
+.Rb {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 15rem;
 }
 
-.Container-texto2--p {
+.Text-h2 {
+    width: 60%;
+}
+
+.Text-p {
     display: flex;
-    width: 100%;
+    width: 60%;
+}
+
+.Text-p--space {
+    margin-left: 15px;
 }
 
 .Galeria {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150%;
+    width: 90%;
     margin-top: 5rem;
-}
 
-.Galeria img {
-    width: 100%;
-    ;
-}
 
-.Galeria-1,.Galeria-2,
+}
+.Galeria-1,
+.Galeria-2,
 .Galeria-3 {
+    margin-left: 2rem;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin: 3rem;;
+    width: 50%;
+}
+.Galeria-1 img {
     width: 100%;
-    
 }
 
 .Galeria-3 img {
-    width: 60%;
+    margin-top: 2rem;
+    width: 50%;
 }
+
 .Container {
     position: relative;
 }
+
+.Container-img3 {
+    width: 100%;
+}
+
+.Container-img3 img {
+    width: 100%;
+}
+
 .Container-btn {
     position: absolute;
 }
-.Container-texto3--img{
+
+.Container-texto3--img {
     display: flex;
-    margin-top: 5rem ;
+    margin-top: 5rem;
 }
-.Container-texto3--img img{
-    width:60%;
+
+.Container-texto3--img img {
+    width: 37%;
     margin: 1rem;
 }
 
+Footer {
+    margin: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
 
+.Footer-1 img {
+    width: 120px;
+    height: 20px;
+}
+
+.Space {
+    display: flex;
+    border-bottom: solid 1px black;
+}
+
+.Space-e {
+    margin-right: 10rem;
+}
+
+.Footer-3--rs {
+    font-weight: bold;
+}
