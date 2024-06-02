@@ -5,7 +5,6 @@ body {
 }
 
 .Header {
-    grid-area: header;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
